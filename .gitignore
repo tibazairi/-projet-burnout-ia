@@ -1,0 +1,59 @@
+# ============================================
+# Environnements Python / Conda
+# ============================================
+venv/
+env/
+.venv/
+mlruns/
+mlflow.db
+
+# ============================================
+# Donnees (souvent trop volumineuses ou sensibles pour Git)
+# ============================================
+data/*.csv
+!data/.gitkeep
+
+# ============================================
+# Modeles entraines et sorties locales
+# ============================================
+models/*.pkl
+src/*/out_train/
+src/*/out_test/
+src/*/out_model/
+src/*/out_metrics/
+*.pkl
+*.joblib
+
+# ============================================
+# Fichiers de credentials / secrets Azure -- NE JAMAIS COMMIT
+# ============================================
+config/config.json
+.env
+*.env
+azureml_config.json
+
+# ============================================
+# Cache Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# ============================================
+# VS Code
+# ============================================
+.vscode/
+!.vscode/settings.json
+
+# ============================================
+# Systeme
+# ============================================
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Logs
+# ============================================
+*.log
+sortie_log.txt
