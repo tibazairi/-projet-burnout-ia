@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "LAPTOP-8HINKMD5",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus22.actions.githubusercontent.com/NbY6WkpfLPTr4W3VOvmZR164jfAa54IAx03yxELHqznWbNASnJ/",
+  "gitHubUrl": "https://github.com/tibazairi/-projet-burnout-ia",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
